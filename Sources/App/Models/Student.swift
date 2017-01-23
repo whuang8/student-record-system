@@ -42,7 +42,7 @@ final class Student: Model {
             users.id()
             users.string("firstname")
             users.string("lastname")
-            users.string("email")
+            users.string("email", length: nil, optional: false, unique: true, default: nil)
             users.string("classification")
         })
     }

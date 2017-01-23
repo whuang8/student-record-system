@@ -19,7 +19,6 @@ final class StudentsController: ResourceRepresentable {
     }
     
     func update(request: Request, student: Student) throws -> ResponseRepresentable {
-        print("UPDATING")
         let new = try request.student()
         var student = student
         student.firstName = new.firstName
