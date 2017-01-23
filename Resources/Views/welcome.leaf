@@ -4,13 +4,8 @@
 	<title>To-do</title>
 
     <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700,300" rel="stylesheet">
-	<link rel="stylesheet" href="/styles/app.css">
 }
 
 #export("body") {
-    <ul>
-        #loop(todoItems, "item") {
-        <li>Action: #(item.action)<br>Author: #(item.author)</li>
-        }
-    </ul>
+    Home Page under construction
 }

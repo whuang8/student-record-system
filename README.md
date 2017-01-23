@@ -1,3 +1,4 @@
-# To-do Application
+# Student Record System
 
-A to-do application written in Swift.
+The Student Record System is an web api that stores student, class, and field of study information. This project is being written with the (Vapor)[https://vapor.codes/] framework and I am using it to practice writting server side Swift.
+
