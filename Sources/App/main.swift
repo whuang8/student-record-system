@@ -6,6 +6,7 @@ import HTTP
 let drop = Droplet()
 try drop.addProvider(VaporPostgreSQL.Provider)
 drop.preparations += Student.self
+drop.preparations += Class.self
 
 drop.get { req in
     return try drop.view.make("welcome")
